@@ -17,11 +17,12 @@ public class Circulo extends Figura{
 
     @Override
     public double calcularArea() {
-        return radio * 3.14;
+        return Math.pow(radio,2) * 3.14;
+
     }
 
     @Override
     public double calcularPerimetro() {
-        return Math.pow(radio,2) * 3.14;
+        return radio * 3.14;
     }
 }
